@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/frame"
+    android:layout_height="match_parent"
+    tools:context="com.example.appideas_user4.facebookdigit.MainActivity">
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:orientation="vertical"
+       android:layout_height="wrap_content">
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/login_button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/login"
+        android:text="Phone Login"
+        android:textColor="#fff"
+        android:background="#0099ff"
+        android:textAllCaps="false"
+        />
+
+
+
+       <ImageView
+           android:layout_width="wrap_content"
+           android:layout_height="50dp"
+           android:id="@+id/Linked"
+           android:text="Linked"
+           android:layout_marginTop="10dp"
+           android:src="@drawable/sign"
+           android:textColor="#fff"
+           android:textAllCaps="false" />
+       <TextView
+           android:layout_width="wrap_content"
+           android:id="@+id/tv_name"
+           android:layout_height="wrap_content"
+           android:text="Hello World!"/>
+
+       <ImageView
+           android:layout_width="110dp"
+           android:id="@+id/profileimage"
+           android:layout_height="110dp" />
+
+   </LinearLayout>
+</FrameLayout>
